@@ -6,7 +6,9 @@ exports[`App snapshot renders 1`] = `
     Pinaki
   </span>
   <div>
-    <div>
+    <div
+      id="sarada"
+    >
       Sarada
     </div>
   </div>

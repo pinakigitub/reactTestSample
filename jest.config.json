@@ -1,4 +1,5 @@
 {
+  "reporters": [ "default", "jest-junit" ],
   "testRegex": "((\\.|/*.)(spec))\\.js?$",
   "setupFilesAfterEnv": [
     "<rootDir>/jest.setup.js"

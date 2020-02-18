@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" time="9.797">
+  <testsuite name="Home" errors="0" failures="0" skipped="0" timestamp="2020-02-18T12:56:54" time="6.542" tests="1">
+    <testcase classname="Home renders the Home  Component" name="Home renders the Home  Component" time="0.068">
+    </testcase>
+  </testsuite>
+  <testsuite name="App" errors="0" failures="0" skipped="0" timestamp="2020-02-18T12:56:54" time="6.575" tests="2">
+    <testcase classname="App snapshot renders" name="App snapshot renders" time="0.023">
+    </testcase>
+    <testcase classname="App Home Component  should be rendered in side App Component" name="App Home Component  should be rendered in side App Component" time="0.079">
+    </testcase>
+  </testsuite>
+</testsuites>
