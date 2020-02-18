@@ -18,4 +18,17 @@ steps:
 - script: |
     npm install
 
+- script: |
+    npm run test
+  displayName: 'npm run test'
+  
+- script: |
+    npm run testResult
+  displayName: 'npm run testResult'
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/junit.xml'
+
   displayName: 'npm install and build'
