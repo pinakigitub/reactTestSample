@@ -8,7 +8,7 @@ describe('Home',()=>{
          
     it('renders the Home  Component', () => {
         const wrapper = mount(<Home />);
-        expect(wrapper.find('div').length).toEqual(1);
+        expect(wrapper.find('div').length).toEqual(4);
       });
 
 })
