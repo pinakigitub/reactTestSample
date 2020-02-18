@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="3" failures="0" time="9.797">
-  <testsuite name="Home" errors="0" failures="0" skipped="0" timestamp="2020-02-18T12:56:54" time="6.542" tests="1">
-    <testcase classname="Home renders the Home  Component" name="Home renders the Home  Component" time="0.068">
+<testsuites name="jest tests" tests="3" failures="1" time="10.022">
+  <testsuite name="App" errors="0" failures="0" skipped="0" timestamp="2020-02-18T13:19:30" time="6.398" tests="2">
+    <testcase classname="App snapshot renders" name="App snapshot renders" time="0.029">
+    </testcase>
+    <testcase classname="App Home Component  should be rendered in side App Component" name="App Home Component  should be rendered in side App Component" time="0.072">
     </testcase>
   </testsuite>
-  <testsuite name="App" errors="0" failures="0" skipped="0" timestamp="2020-02-18T12:56:54" time="6.575" tests="2">
-    <testcase classname="App snapshot renders" name="App snapshot renders" time="0.023">
-    </testcase>
-    <testcase classname="App Home Component  should be rendered in side App Component" name="App Home Component  should be rendered in side App Component" time="0.079">
+  <testsuite name="Home" errors="0" failures="1" skipped="0" timestamp="2020-02-18T13:19:30" time="6.737" tests="1">
+    <testcase classname="Home renders the Home  Component" name="Home renders the Home  Component" time="0.051">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: 4
+Received: 1
+    at Object.&lt;anonymous&gt; (D:\Sarada\app-test\src\components\Home.spec.js:11:44)
+    at Object.asyncJestTest (D:\Sarada\app-test\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at D:\Sarada\app-test\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\Sarada\app-test\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at D:\Sarada\app-test\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
   </testsuite>
 </testsuites>
